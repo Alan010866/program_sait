@@ -8,5 +8,7 @@
 <div>
     <h1> Видеокарты </h1>
 </div>
-
+  {% for post in posts %}
+    {% include "includes/article.html" %}
+  {% endfor %}
 {% endblock %}
