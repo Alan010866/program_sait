@@ -4,7 +4,7 @@
 <div class="container">
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="{% url 'main'}" class="nav-link {% if view_name == 'main' %}active{% endif %}" aria-current="page">Главная</a></li>
+        <li class="nav-item"><a href="{% url 'main' %}" class="nav-link {% if view_name == 'main' %}active{% endif %}" aria-current="page">Главная</a></li>
         <li class="nav-item"><a href="{% url 'create' %}" class="nav-link {% if view_name == 'create' %}active{% endif %}">Новый пост</a></li>
         <li class="nav-item"><a href="{% url 'autor' %}" class="nav-link">Автор</a></li>
         <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
